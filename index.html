@@ -13,7 +13,7 @@
     <header>
         <div id="header__top">
             <a href="#"><img src="logo.png" alt=""></a>
-            <nav>
+            <nav id="header__top__nav">
                 <a href="#">MAIN</a>
                 <a href="#whatIsIt">ABOUT</a>
                 <a href="#specials">GAME FEATURES</a>
@@ -32,8 +32,26 @@
                     </div>
                 </div>
                 <span id="header__top__div__border"></span>
-                <a href="#"><img src="xbox__icon.svg" alt=""></a>
-                <a href="#"><img src="steam__icon.svg" alt=""></a>
+                <a href="#" id="a__xbox"><img src="xbox__icon.svg" alt=""></a>
+                <a href="#" id="a__steam"><img src="steam__icon.svg" alt=""></a>
+
+                <aside>
+                    <div id="header__top__div__btn" onclick="showHideMenu()" onmouseover="btn3BlockShow()" onmouseout="btn3BlockHide()">
+                        <div id="header__top__div__btn__block1"></div>
+                        <div id="header__top__div__btn__block2"></div>
+                        <div id="header__top__div__btn__block3"></div>
+                    </div>
+
+                    <div id="header__top__div__menu">
+                        <nav id="header__top__div__menu__nav">
+                            <a href="#">MAIN</a>
+                            <a href="#whatIsIt">ABOUT</a>
+                            <a href="#specials">GAME FEATURES</a>
+                            <a href="#requirements">SYSTEM REQUIREMENTS</a>
+                            <a href="#quotes">QUOTES</a>
+                        </nav>
+                    </div>
+                </aside>
             </div>
         </div>
         <div id="header__content">
