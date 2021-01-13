@@ -93,10 +93,9 @@ let whatIsItPic2 = document.querySelector("#whatIsIt__pic2");
 let whatIsItPic3 = document.querySelector("#whatIsIt__pic3");
 let whatIsItPic4 = document.querySelector("#whatIsIt__pic4");
 
-let whatIsItPics = new Array(whatIsItPic1, whatIsItPic2, whatIsItPic3, whatIsItPic4);
+let whatIsItPics = [whatIsItPic1, whatIsItPic2, whatIsItPic3, whatIsItPic4];
 
 let canOrNot = true;
-let i = 0;
 let pic1 = 0, pic2 = 1, pic3 = 2, pic4 = 3;
 function slider() {
   if (canOrNot) {
