@@ -75,10 +75,9 @@ header {
 }
 #header__top__div__menu {
     top: 0;
-    right: 0;
+    right: 300px;
     transform: translate(680px, -20px);
     border-radius: 20px;
-    right: 300px;
     position: absolute;
     background-color: #f6b139;
     width: 300px;
@@ -240,7 +239,6 @@ header {
 #header__content a div {
     color: white;
     font-weight: 600;
-    cursor: default;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -351,6 +349,7 @@ header {
     transform: translateY(-80px);
     opacity: 0;
     transition: all 1s;
+    padding-right: 10px;
 }
 #specials__h2 {
     font-weight: 500;
@@ -366,7 +365,7 @@ header {
     color: #ffb548;
     font-size: 30px;
     font-weight: 500;
-    margin: 10px 0;
+    margin: 10px 10px 10px 0;
 }
 #specials__yellow:nth-child(3) {
     margin: 30px 0;
@@ -393,7 +392,6 @@ header {
     height: 15px;
     border: 1px solid white;
     border-radius: 50%;
-    margin-right: 30px;
     margin: 0 auto;
 }
 #specials__content__decor div:nth-child(2) {
@@ -1089,8 +1087,6 @@ footer hr {
     #specials__content h3 {
         width: 80%;
     }
-}
-@media (max-width: 350px) {
     #whatIsIt__left h3 {
         font-size: 33px;
         width: 85%;
